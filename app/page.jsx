@@ -47,9 +47,9 @@ export default function Portfolio() {
 
         {/* EDIT: Your 2–3 sentence bio */}
         <p className="text-slate-600 leading-relaxed">
-          Final year student at Sunway University passionate about data analytics and machine learning.
-          I enjoy turning messy datasets into clear insights and building tools that help people make
-          better decisions. Currently seeking internship and graduate opportunities in data science.
+          Final year student at Sunway University passionate about artificial intelligence and machine learning.
+          I enjoy building AI, deep learning, and machine learning models that are helpful for people. Currently 
+          seeking for internship opportunities.
         </p>
       </section>
 
@@ -66,6 +66,9 @@ export default function Portfolio() {
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Tableau</span>
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Pandas</span>
           <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">Scikit-learn</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-mediu">Tensorflow</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">PostgreSQL</span>
+          <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">PyTorch</span>
         </div>
       </section>
 
@@ -79,23 +82,22 @@ export default function Portfolio() {
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
-            <h3 className="text-lg font-semibold text-slate-900">Sales Dashboard</h3>
+            <h3 className="text-lg font-semibold text-slate-900">Didik AI: AI Education App</h3>
 
             {/* EDIT: One sentence describing the project and what you learned */}
             <p className="text-slate-600 text-sm leading-relaxed">
-              Interactive data visualisation dashboard built with Python and Tableau.
-              Analysed 12 months of retail sales data to surface weekly trends and top-performing products.
+              AI Solution fo UMPSA Hackathon 2026. A Gemini-based education app to tutor national students based on national curriculum.
             </p>
 
             {/* EDIT: Technologies used in this project */}
             <div className="flex flex-wrap gap-2">
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Python</span>
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Tableau</span>
-              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Pandas</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Javascript</span>
+              <span className="bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded text-xs font-medium">Vue</span>
+              
             </div>
 
             {/* EDIT: Your GitHub link for this project */}
-            <a href="https://github.com/netizen-experience" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/SiahCHangYEt/FintechHackathonSolution.-" target="_blank" rel="noopener noreferrer"
                className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
               View on GitHub →
             </a>
@@ -105,12 +107,11 @@ export default function Portfolio() {
           <div className="border border-slate-200 rounded-xl p-6 space-y-3">
 
             {/* EDIT: Project name */}
-            <h3 className="text-lg font-semibold text-slate-900">Student Grade Predictor</h3>
+            <h3 className="text-lg font-semibold text-slate-900">Fake News Detection</h3>
 
             {/* EDIT: One sentence describing the project and what you learned */}
             <p className="text-slate-600 text-sm leading-relaxed">
-              Machine learning model that predicts final exam grades from attendance and assignment scores.
-              Achieved 87% accuracy using a Random Forest classifier trained on anonymised university data.
+              Final year project of my diploma. Machine learning model that classifies whether the news is fake or real using Logistic Regression.
             </p>
 
             {/* EDIT: Technologies used in this project */}
@@ -121,7 +122,7 @@ export default function Portfolio() {
             </div>
 
             {/* EDIT: Your GitHub link for this project */}
-            <a href="https://github.com/netizen-experience" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/SiahCHangYEt/Diploma-Final-Year-Project" target="_blank" rel="noopener noreferrer"
                className="inline-block text-sm text-indigo-600 hover:text-indigo-800 font-medium transition-colors">
               View on GitHub →
             </a>
@@ -136,13 +137,15 @@ export default function Portfolio() {
 
         <div className="space-y-1">
           {/* EDIT: Your degree */}
-          <p className="font-semibold text-slate-900">BSc Computer Science</p>
+          <p className="font-semibold text-slate-900">BSc Artificial Intelligence</p>
 
           {/* EDIT: Your university */}
           <p className="text-slate-600">Sunway University</p>
 
           {/* EDIT: Your expected graduation year */}
-          <p className="text-slate-500 text-sm">Expected Graduation: 2026</p>
+          <p className="text-slate-500 text-sm">Expected Graduation: 2028</p>
+          {/*My CGPA Grade*/}
+          <p className="text-slate-500 text-sm">CGPA: 3.86</p>
         </div>
       </section>
 
@@ -151,15 +154,15 @@ export default function Portfolio() {
         <h2 className="text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-200">Contact</h2>
 
         <p className="text-slate-600 mb-4">
-          Open to internship and graduate opportunities — feel free to reach out.
+          Open to internship opportunities — feel free to reach out.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3">
 
           {/* EDIT: Your email address */}
-          <a href="mailto:kuohong@netizenexperience.com"
+          <a href="mailto:siahcyet@gmail.com"
              className="inline-block border border-slate-300 text-slate-700 px-5 py-2.5 rounded-lg text-sm font-medium hover:border-indigo-400 hover:text-indigo-600 transition-colors text-center">
-            kuohong@netizenexperience.com
+            siahcyet@gmail.com
           </a>
 
           {/* EDIT: Your GitHub URL */}
