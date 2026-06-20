@@ -16,17 +16,17 @@ export default function Portfolio() {
 
           {/* EDIT: Your email address */}
           <a href="mailto:siahcyet@gmail.com" className="hover:text-indigo-600 transition-colors">
-            kuohong@netizenexperience.com
+          siahcyet@gmail.com
           </a>
 
           {/* EDIT: Your GitHub URL */}
-          <a href="https://github.com/netizen-experience" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/SiahCHangYEt" target="_blank" rel="noopener noreferrer"
              className="hover:text-indigo-600 transition-colors">
             GitHub
           </a>
 
           {/* EDIT: Your LinkedIn URL */}
-          <a href="https://my.linkedin.com/company/netizen-experience" target="_blank" rel="noopener noreferrer"
+          <a href="www.linkedin.com/in/siah-chang-yet-0950bb290" target="_blank" rel="noopener noreferrer"
              className="hover:text-indigo-600 transition-colors">
             LinkedIn
           </a>
