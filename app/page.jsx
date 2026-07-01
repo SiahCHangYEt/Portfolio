@@ -131,6 +131,16 @@ export default function Portfolio() {
         </div>
       </section>
 
+      {/*INTERNSHIP */}
+      <section>
+        <h2 className="text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-200">Internship</h2>
+        <div class ="space-y-1">
+          
+
+        </div>
+
+      </section>
+
       {/* ─── EDUCATION ─────────────────────────────────────────────── */}
       <section>
         <h2 className="text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-200">Education</h2>
@@ -144,6 +154,16 @@ export default function Portfolio() {
 
           {/* EDIT: Your expected graduation year */}
           <p className="text-slate-500 text-sm">Expected Graduation: 2028</p>
+          {/*My CGPA Grade*/}
+          <p className="text-slate-500 text-sm">CGPA: 3.86</p>
+        </div>
+
+        <div className="space-y-1">
+          {/* EDIT: Your degree */}
+          <p className="font-semibold text-slate-900">Diploma in Information Technology</p>
+
+          {/* EDIT: Your university */}
+          <p className="text-slate-600">Sunway College Kuala Lumpur</p>
           {/*My CGPA Grade*/}
           <p className="text-slate-500 text-sm">CGPA: 3.86</p>
         </div>
@@ -182,7 +202,7 @@ export default function Portfolio() {
       {/* ─── FOOTER ────────────────────────────────────────────────── */}
       <footer className="text-center text-slate-400 text-sm pt-4 pb-8 border-t border-slate-100">
         {/* EDIT: Your name */}
-        <p>© 2026 Teo Kuo Hong · Built with Next.js & Tailwind CSS</p>
+        <p>© 2026 Siah Chang Yet · Built with Next.js & Tailwind CSS</p>
       </footer>
 
     </main>
